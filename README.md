@@ -1,5 +1,7 @@
 # Location Bug
 
+Fixed this bug on iOS 17 beta 6 :tada:
+
 ## Problem Description:
 
 When using Xcode15-beta4 and iOS17beta3, there is an issue that only occurs on a physical device (in this case, iPhone 11 Pro was used for testing) and not in the simulator. When EKEvent holds the following EKStructuredLocation values and EKEventViewController is displayed, it appears briefly and then the screen closes instantly.
